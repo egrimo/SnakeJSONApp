@@ -11,6 +11,11 @@
 		9DA37C312798612B00D3B3CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA37C302798612B00D3B3CB /* ContentView.swift */; };
 		9DA37C332798612D00D3B3CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA37C322798612D00D3B3CB /* Assets.xcassets */; };
 		9DA37C362798612D00D3B3CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA37C352798612D00D3B3CB /* Preview Assets.xcassets */; };
+		9DA37C3D2798616300D3B3CB /* UserData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DA37C3C2798616300D3B3CB /* UserData.json */; };
+		9DA37C3F279862A700D3B3CB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA37C3E279862A700D3B3CB /* User.swift */; };
+		9DA37C412798632700D3B3CB /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA37C402798632700D3B3CB /* UserManager.swift */; };
+		9DA37C432798637300D3B3CB /* SnakeDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA37C422798637300D3B3CB /* SnakeDecoder.swift */; };
+		9DA37C452798674F00D3B3CB /* UserError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA37C442798674F00D3B3CB /* UserError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		9DA37C302798612B00D3B3CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9DA37C322798612D00D3B3CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DA37C352798612D00D3B3CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DA37C3C2798616300D3B3CB /* UserData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UserData.json; sourceTree = "<group>"; };
+		9DA37C3E279862A700D3B3CB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9DA37C402798632700D3B3CB /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		9DA37C422798637300D3B3CB /* SnakeDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeDecoder.swift; sourceTree = "<group>"; };
+		9DA37C442798674F00D3B3CB /* UserError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				9DA37C2E2798612B00D3B3CB /* SnakeJSONAppApp.swift */,
 				9DA37C302798612B00D3B3CB /* ContentView.swift */,
+				9DA37C3E279862A700D3B3CB /* User.swift */,
+				9DA37C402798632700D3B3CB /* UserManager.swift */,
+				9DA37C442798674F00D3B3CB /* UserError.swift */,
+				9DA37C422798637300D3B3CB /* SnakeDecoder.swift */,
+				9DA37C3C2798616300D3B3CB /* UserData.json */,
 				9DA37C322798612D00D3B3CB /* Assets.xcassets */,
 				9DA37C342798612D00D3B3CB /* Preview Content */,
 			);
@@ -127,6 +142,7 @@
 			files = (
 				9DA37C362798612D00D3B3CB /* Preview Assets.xcassets in Resources */,
 				9DA37C332798612D00D3B3CB /* Assets.xcassets in Resources */,
+				9DA37C3D2798616300D3B3CB /* UserData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA37C432798637300D3B3CB /* SnakeDecoder.swift in Sources */,
 				9DA37C312798612B00D3B3CB /* ContentView.swift in Sources */,
 				9DA37C2F2798612B00D3B3CB /* SnakeJSONAppApp.swift in Sources */,
+				9DA37C412798632700D3B3CB /* UserManager.swift in Sources */,
+				9DA37C3F279862A700D3B3CB /* User.swift in Sources */,
+				9DA37C452798674F00D3B3CB /* UserError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

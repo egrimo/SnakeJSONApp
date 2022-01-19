@@ -1,0 +1,25 @@
+{
+    "users": [
+        { "user_name" : "Ege",
+            "user_age" : 26,
+            "user_hobbies" : ["Music","Blogging","Tech"],
+            "user_languages" : ["English", "German"]
+        },
+        { "user_name" : "Öykü",
+            "user_age" : 25,
+            "user_hobbies" : ["Music","Eurovision","Metaverse"],
+            "user_languages" : ["English", "German","Italian","Russian","Dutch"]
+        },
+        { "user_name" : "Ali",
+            "user_age" : 35,
+            "user_hobbies" : ["Art","Blogging","Math"],
+            "user_languages" : ["English", "French"]
+        },
+        { "user_name" : "Burcu",
+            "user_age" : 40,
+            "user_hobbies" : ["Social Media","Travel","Walking"],
+            "user_languages" : ["English", "German"]
+        }
+    ]
+}
+
